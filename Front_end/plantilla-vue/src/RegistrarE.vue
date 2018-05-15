@@ -1,6 +1,6 @@
 <template>
 
-<div class="cuerpo">
+<div style="padding-top: 50px">
 
 
 	<h2 style="color: #2980B9">{{title}} </h2>
@@ -60,14 +60,13 @@
 				</div>
 		  </div>
 
-			
-
 		  <div class="mt-1">
-			<button style="background-color: #5499C7" type="submit" class="btn btn-primary">Registrar</button>
-			<button style="background-color: #AAB7B8" type="reset" class="btn btn-secondary">Cancelar</button>
+				<button style="background-color: #5499C7" type="submit" class="btn btn-primary">Registrar</button>
+				<button style="background-color: #AAB7B8" type="reset" class="btn btn-secondary">Cancelar</button>
 		  </div>
+
 		</form>
-	  </div>
+	</div>
 </div>
 
 </template>

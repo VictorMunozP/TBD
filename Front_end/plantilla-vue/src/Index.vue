@@ -3,10 +3,8 @@
 <div class="center">
   
   <h2>{{title}}</h2>
-    <img class="logo-big" src="./img/vue-logo.png" />
-    <p>
-      Plantilla hecha con Vue.js y Webpack
-    </p>
+  <p> República Gamer a tiempo real </p>
+  <img class="logo-big" src="./img/wbt.png" />
 </div>
 
 </template>
@@ -14,7 +12,7 @@
 export default{
   data(){
     return{
-      title:'Index'
+      title:'WorstBest'
     }
   },
   mounted:function(){

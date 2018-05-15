@@ -12,11 +12,11 @@
 export default{
   data(){
     return{
-      title:'Gestionar Empresa'
+      title:'(nombre empresa)'
     }
   },
   mounted:function(){
-    console.log('GestionarE.vue')
+    console.log('PerfilE.vue')
   }
 }
 </script>

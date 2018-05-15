@@ -9,7 +9,8 @@
       <nav>
         <a href="/">Home</a>
         <a href="#/registroE">Agregar Empresa</a>
-        <a href="#/gestionE">Gestionar Empresas</a>     
+        <a href="#/eliminarE">Eliminar Empresas</a>     
+        <a href="#/perfil">Perfil</a>  
                
       </nav>
     </header>

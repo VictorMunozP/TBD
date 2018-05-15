@@ -5,14 +5,16 @@ import Index from './Index.vue';
 import VueResource from 'vue-resource';
 import App from './App.vue';
 import RegistrarE from './RegistrarE.vue';
-import GestionarE from './GestionarE.vue';
+import EliminarE from './EliminarE.vue';
+import PerfilE from './PerfilE.vue';
 
 Vue.use(VueRouter);
 Vue.use(VueResource);
 const routes = [
   { path: '/index', alias: '/', component: Index},
   { path: '/registroE', component: RegistrarE},
-  { path: '/gestionE', component: GestionarE},
+  { path: '/eliminarE', component: EliminarE},
+  { path: '/perfil', component: PerfilE},
 ]
 
 // Create the router instance and pass the `routes` option
