@@ -29,6 +29,11 @@ configurations {
 }
 
 dependencies {
+	compile group: 'org.apache.lucene', name: 'lucene-core', version: '7.3.0'
+	compile group: 'org.apache.lucene', name: 'lucene-analyzers-common', version: '7.3.0'
+	compile group: 'org.apache.lucene', name: 'lucene-queryparser', version: '7.3.0'
+	compile group: 'org.apache.lucene', name: 'lucene-queries', version: '7.3.0'
+	testCompile group: 'org.apache.lucene', name: 'lucene-codecs', version: '7.3.0'
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-data-mongodb')
 	compile('org.springframework.boot:spring-boot-starter-web')
