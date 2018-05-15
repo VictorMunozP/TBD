@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+
     <list default="true" id="da643bb8-d160-4c5d-93be-30fb8af20fc8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,6 +11,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -224,14 +226,40 @@
     <option name="projectSyncType">
       <map>
         <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+=======
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Descargas/artifacts/sakila-backend-spring" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documentos/tdb/analisisS" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documentos/tdb/buscadorLibros" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documentos/tdb/mongo" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documentos/tdb/proyecto" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documentos/tdb/spring1" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documentos/tdb/spring1/Taller2-TBD" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documentos/tdb/spring1/Taller2-TBD/colectorTwitter" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documentos/tdb/tbd-2/Taller2-TBD" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documentos/tdb/tbd2" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documentos/tdb/tbdFinal/Taller2-Back" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documentos/tdb/tdbFinal/Taller1-TBD" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documentos/tdb/twitter" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../nv2/Proyecto_TDB/Back_end/TDB_back" value="PREVIEW" />
+>>>>>>> f21b3826779bf511a8c9d9adcbdda66ac8be845b
       </map>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="61" />
     <option name="y" value="-4" />
     <option name="width" value="1305" />
     <option name="height" value="772" />
+=======
+    <option name="x" value="226" />
+    <option name="y" value="64" />
+    <option name="width" value="1279" />
+    <option name="height" value="696" />
+>>>>>>> f21b3826779bf511a8c9d9adcbdda66ac8be845b
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -239,12 +267,16 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> f21b3826779bf511a8c9d9adcbdda66ac8be845b
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Back_end" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="Back_end" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -260,14 +292,83 @@
             <path>
               <item name="Back_end" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+=======
+              <item name="Back_end" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Back_end" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="TDB_back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Back_end" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="TDB_back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Back_end" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="TDB_back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Back_end" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="TDB_back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Back_end" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="TDB_back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Back_end" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="TDB_back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tdb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Back_end" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="TDB_back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tdb" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+>>>>>>> f21b3826779bf511a8c9d9adcbdda66ac8be845b
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="AndroidView" />
     </panes>
   </component>
+=======
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+>>>>>>> f21b3826779bf511a8c9d9adcbdda66ac8be845b
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -328,15 +429,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="da643bb8-d160-4c5d-93be-30fb8af20fc8" name="Default" comment="" />
       <created>1526360687111</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526360687111</updated>
+=======
+      <changelist id="610d9399-40f8-44c0-94f3-49d86e2e689f" name="Default" comment="" />
+      <created>1526393814634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526393814634</updated>
+>>>>>>> f21b3826779bf511a8c9d9adcbdda66ac8be845b
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="61" y="-4" width="1305" height="772" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -369,11 +479,41 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+=======
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+>>>>>>> f21b3826779bf511a8c9d9adcbdda66ac8be845b
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -386,10 +526,16 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> f21b3826779bf511a8c9d9adcbdda66ac8be845b
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
         <settings>
+<<<<<<< HEAD
+=======
+          <last-edited>1.8</last-edited>
+>>>>>>> f21b3826779bf511a8c9d9adcbdda66ac8be845b
           <splitter-proportions>
             <option name="proportions">
               <list>
