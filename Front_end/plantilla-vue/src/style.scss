@@ -38,6 +38,9 @@ header{
     }
     span{
       display: inline-block;
+      color:#5499C7;
+      font-weight:bold;
+      
     }
   }
   nav{
@@ -72,6 +75,12 @@ header{
     max-width: 200px;
   }
 }
+
+.cuerpo {
+  padding-top: 50px;
+}
+
+
 .user-list{
   list-style: none;
   text-align: left;

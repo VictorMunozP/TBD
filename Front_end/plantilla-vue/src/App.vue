@@ -7,9 +7,10 @@
         <span>WorstBest</span>
       </div>
       <nav>
-        <a href="#/">Home</a>
-        <a href="#/new">Agregar Empresa</a>
-        <a href="#/new">Gestionar Empresas</a>         
+        <a href="/">Home</a>
+        <a href="#/registroE">Agregar Empresa</a>
+        <a href="#/gestionE">Gestionar Empresas</a>     
+               
       </nav>
     </header>
 
