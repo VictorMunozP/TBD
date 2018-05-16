@@ -7,6 +7,7 @@ import App from './App.vue';
 import RegistrarE from './RegistrarE.vue';
 import EliminarE from './EliminarE.vue';
 import PerfilE from './PerfilE.vue';
+import ConfiguracionPE from './ConfiguracionPE.vue';
 
 Vue.use(VueRouter);
 Vue.use(VueResource);
@@ -15,6 +16,7 @@ const routes = [
   { path: '/registroE', component: RegistrarE},
   { path: '/eliminarE', component: EliminarE},
   { path: '/perfil', component: PerfilE},
+  { path: '/configuracion', component: ConfiguracionPE},
 ]
 
 // Create the router instance and pass the `routes` option
