@@ -94,7 +94,7 @@ public class IndiceInvertido {
 		    QueryParser parser = new QueryParser("text", analyzer);
 		    Query query = parser.parse(consulta);
 		    
-		    TopDocs results = searcher.search(query,10);
+		    TopDocs results = searcher.search(query,9999);
 		    ScoreDoc[] hits = results.scoreDocs;
 		   this.tweets=new ArrayList<String>();
 		    
@@ -114,7 +114,6 @@ public class IndiceInvertido {
 		catch(ParseException pe) {
 			Logger.getLogger(IndiceInvertido.class.getName()).log(Level.SEVERE, null, pe);
 		}
-		
 		return tweets;
 	}
 		

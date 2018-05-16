@@ -45,13 +45,13 @@ public class VideoGame implements Serializable  {
 	@Temporal(TemporalType.DATE)
 	private Date release;
 	
-	@OneToMany(fetch=FetchType.LAZY,cascade=CascadeType.ALL)
+	@OneToMany(cascade=CascadeType.ALL)
 	@JoinColumn(name="game_id")
 	private List<Score> scores;
 	
 	/*Corresponde a los diferentes nombres que tiene un titulo*/
 	/*Por ejemplo god of war tambien se puede encontrar como "gow"*/
-	@OneToMany(fetch=FetchType.LAZY,cascade=CascadeType.ALL)
+	@OneToMany(cascade=CascadeType.ALL)
 	@JoinColumn(name="game_id")
 	private List<KeyWord> keyWords;
 	
