@@ -43,6 +43,7 @@ header{
       
     }
   }
+
   nav{
     a{
       font-size: 0.8em;
@@ -65,13 +66,14 @@ header{
     }
   }
 }
+
 .center {
   text-align: center;
   font-size: 30px;
   margin: 0 auto;
   padding-top: 10px;
   img{
-    max-width: 300px;
+    max-width: 380px;
   }
 }
 
@@ -80,50 +82,19 @@ header{
   padding-left: 130px;
 }
 
-
-.user-list{
-  list-style: none;
-  text-align: left;
-  li{
-    height: 50px;
-    display: flex;
-    margin-bottom: 5px;
-    span{
-      display: inline-block;
-      line-height: 50px;
-      vertical-align: middle;
-      margin-left: 5px;
-    }
-    .date{
-      color:darken($main-color,10%);
-      font-size: 0.9em;
-    }
-    img{
-      border: 1px solid rgba($secondary-color,0.5);
-      border-radius: 50%;
-
-    }
-  }
-
-}
-/**
- * Footer Styles
- */
-/*
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-}*/
-
 .logo-small{
   transition: 600ms;
   transform-origin: 50% 40%;
   &:hover{
     transform: rotate(360deg);
   }
+}
+
+.bloque1{
+  float: left;
+  padding-left: 250px;
+}
+
+.bloque2{
+  float: right;
 }
