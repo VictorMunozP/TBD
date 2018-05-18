@@ -43,11 +43,7 @@ public class Scheduler {
 	
 	public void generarAnalisis() {
 		
-		//List<VideoGame> videoGames=(List<VideoGame>) videoGameRepository.findAll();
-		List<VideoGame> videoGames=new ArrayList<VideoGame>();
-		VideoGame game=videoGameRepository.findById((long) 1).orElse(null);
-		videoGames.add(game);
-		
+		List<VideoGame> videoGames=(List<VideoGame>) videoGameRepository.findAll();
 		for (VideoGame videoGame : videoGames) {
 			
 			String nombre=generarNombres(videoGame);
