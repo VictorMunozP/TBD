@@ -29,6 +29,7 @@
     "chart.js": "^2.7.2",
     "chartkick": "^2.3.5",
     "hchs-vue-charts": "^1.2.8",
+    "uglify-js": "git://github.com/mishoo/UglifyJS2.git#harmony-v2.8.22",
     "vue": "^2.4.1",
     "vue-chartjs": "^3.3.1",
     "vue-chartkick": "^0.3.1",

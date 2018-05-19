@@ -1,12 +1,12 @@
 <template>
   <!--section class="container"-->
   <section class="container">
-    <ul>
+    <!--ul>
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/chartjs">vue-chartjs</router-link></li>
       <li><router-link to="/charts">vue-charts</router-link></li>
       <li><router-link to="/chartkick">vue-chartkick</router-link></li>
-    </ul>
+    </ul-->
     <h1>Demo examples of vue-charts</h1>
 
     <b-container class="bootstrapVue-example-row">
@@ -18,9 +18,6 @@
           <option value="J1">Juego_1</option>
           <option value="J2">Juego_2</option>
           <option value="J3">Juego_3</option>
-          <option value="J4">Juego_4</option>
-          <option value="J5">Juego_5</option>
-          <option value="J6">Juego_6</option>
           </select>
         </b-col>
         <b-col>comparar con </b-col>
@@ -31,9 +28,6 @@
           <option value="J1">Juego_1</option>
           <option value="J2">Juego_2</option>
           <option value="J3">Juego_3</option>
-          <option value="J4">Juego_4</option>
-          <option value="J5">Juego_5</option>
-          <option value="J6">Juego_6</option>
           </select>
         </b-col>
         <button type="compare">Comparar</button>
@@ -52,7 +46,9 @@
       <div class="column">
         <h3>Bar Chart</h3>
         <!--Bar Chart Example-->
-        <chartjs-bar></chartjs-bar>
+        <canvas id="1" :count="2"></canvas>
+        <chartjs-bar :target="1" :label="label1" :labels="labels" :data="data1"></chartjs-bar>
+        <chartjs-bar :target="1" :label="label2" :labels="labels" :data="data2"></chartjs-bar>
       </div>
     </div>
     <div class="columns">
@@ -80,8 +76,11 @@
     name: 'VueCharts',
     data () {
       return {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-        dataset: [65, 59, 80, 81, 56, 55, 40]
+        label1: 'hola',
+        label2: 'chao',
+        labels: ['Buenos', 'Malos', 'Neutros'],
+        data1: [1,2,3],
+        data2: [4,5,6]
       }
     },
     //-----------------------------------------------
