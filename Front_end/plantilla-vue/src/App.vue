@@ -10,7 +10,8 @@
         <a href="/">Home</a>
         <a href="#/registroE">Agregar Empresa</a>
         <a href="#/eliminarE">Eliminar Empresas</a>     
-        <a href="#/perfil">Perfil</a>  
+        <a href="#/perfil">Perfil</a>
+        <a href="#/comparador">Comparador</a>  
                
       </nav>
     </header>
