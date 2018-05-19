@@ -12,5 +12,7 @@ Incluye:
 
 * ir a carpeta `plantilla vue`
 * instalar dependencias de node `npm install`
+* mas dependencias `npm install chart.js chartkick hchs-vue-charts vue-chartjs vue-chartkick`
+* mas dependencias :) `npm install --save uglify-js`
 * ejecutar `npm run dev`
 * generar distribuible `npm run build`
