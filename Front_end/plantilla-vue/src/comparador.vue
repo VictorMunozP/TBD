@@ -1,13 +1,6 @@
 <template>
-  <!--section class="container"-->
   <section class="container">
-    <!--ul>
-      <li><router-link to="/">Home</router-link></li>
-      <li><router-link to="/chartjs">vue-chartjs</router-link></li>
-      <li><router-link to="/charts">vue-charts</router-link></li>
-      <li><router-link to="/chartkick">vue-chartkick</router-link></li>
-    </ul-->
-    <h1>Demo examples of vue-charts</h1>
+    <h1>Selecciona los juegos a comparar</h1>
 
     <b-container class="bootstrapVue-example-row">
     <b-row>
@@ -34,65 +27,60 @@
     </b-row>
     </b-container>
 
-
-
-
-    <div class="columns">
-      <div class="column">
-        <h3>Line Chart</h3>
-        <!--Line Chart Example-->
-        <chartjs-line></chartjs-line>
-      </div>
-      <div class="column">
-        <h3>Bar Chart</h3>
-        <!--Bar Chart Example-->
-        <canvas id="1" :count="2"></canvas>
-        <chartjs-bar :target="1" :label="label1" :labels="labels" :data="data1"></chartjs-bar>
-        <chartjs-bar :target="1" :label="label2" :labels="labels" :data="data2"></chartjs-bar>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <h3>Radar Chart</h3>
-        <!--Radar Chart Example-->
-        <chartjs-radar></chartjs-radar>
-      </div>
-      <div class="column">
-        <h3>Data Binding Line Chart</h3>
-        <!--Data Binding Line Chart Example-->
-        <form @submit.prevent="addData">
-          <input placeholder="Add a Data" v-model="dataentry">
-          <input placeholder="Add a Label" v-model="datalabel">
-          <button type="submit">Submit</button>
-        </form>
-        <chartjs-line :labels="labels" :data="dataset" :bind="true"></chartjs-line>
-      </div>
-    </div>
+    <h3>Gráfico comparador de juegos</h3>
+    <bar-chart></bar-chart>
+    <h3> Grafico de lineas, no necesario para esta vista pero incluido para ver como luce </h3>
+    <line-chart></line-chart>
+    <!--chartjs-radar :datasets="datacollection.datasets"></chartjs-radar-->
+    <h3>al igual q este de burbujas, aunque podria ser util</h3>
+    <bubble-chart></bubble-chart>
   </section>
 </template>
 
 <script>
+  import LineChart from './LineChart.vue';
+  import BarChart from './BarChart.vue';
+  import BubbleChart from './BubbleChart.vue';
+
   export default {
-    name: 'VueCharts',
+    name: 'VueChartJS',
+    components: {
+      LineChart,
+      BarChart,
+      BubbleChart
+    },
+    //---------------------------------------------------------------------
     data () {
       return {
-        label1: 'hola',
-        label2: 'chao',
-        labels: ['Buenos', 'Malos', 'Neutros'],
-        data1: [1,2,3],
-        data2: [4,5,6]
+        // instantiating datacollection with null
+        datacollection: null
       }
     },
-    //-----------------------------------------------
+    created () {
+    //anytime the vue instance is created, call the fillData() function.
+      this.fillData()
+    },
     methods: {
-      addData () {
-        this.dataset.push(this.dataentry)
-        this.labels.push(this.datalabel)
-        this.datalabel = ''
-        this.dataentry = ''
+      fillData () {
+        this.datacollection = {
+          // Data for the y-axis of the chart
+          labels: ['Tweets Positivos', 'Tweets Negativos', 'Tweets Neutros'],
+          datasets: [
+            {
+              label: 'Data One',
+              backgroundColor: '#f87979',
+              // Data for the x-axis of the chart
+              data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt()]
+            }
+          ]
+        }
+      },
+      getRandomInt () {
+        // JS function to generate numbers to be used for the chart
+        return Math.floor(Math.random() * (50 - 5 + 1)) + 5
       }
     }
-    //-------------------------------------------------
+    //--------------------------------------------------------------------
   }
 </script>
 
@@ -101,11 +89,13 @@
     list-style-type: none;
     padding: 0;
   }
+
   li {
     display: inline-block;
     margin: 0 10px;
   }
+
   a {
-    color: #7d42b9;
+    color: #42b983;
   }
 </style>
