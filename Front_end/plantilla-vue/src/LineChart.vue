@@ -26,7 +26,7 @@
               ],
               pointBackgroundColor: 'white',
               borderWidth: 1,
-              pointBorderColor: '#33d22d',
+              pointBorderColor: 'rgba(42, 67, 178, 0.2)',
               //Data to be represented on y-axis
               data: [10,56,25,7,43,45,78]
             },
@@ -41,12 +41,7 @@
                 'rgba(255, 159, 64, 0.2)'
               ],
               borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
+                'rgba(255, 99, 132, 1)'
               ],
               pointBackgroundColor: 'white',
               borderWidth: 1,

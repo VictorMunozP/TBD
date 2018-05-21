@@ -39,7 +39,7 @@
 					<label for="idade" class="form-control-label">ID</label>
 					<input id="idade" min="16" name="idade" type="number" class="form-control" required>
 				</div>
-				
+
 				<div class="col-md-2 form-group">
 					<label for="pais" class="form-control-label">País</label>
 					<select id="pais" name="pais" class="form-control" required>

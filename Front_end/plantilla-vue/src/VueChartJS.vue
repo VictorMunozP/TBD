@@ -46,7 +46,7 @@
       BubbleChart,
       Reactive
     },
-    //---------------------------------------------------------------------
+    //--------------------Reactive Bar Chart-------------------------------------------------
     data () {
       return {
         // instantiating datacollection with null
@@ -61,13 +61,13 @@
       fillData () {
         this.datacollection = {
           // Data for the y-axis of the chart
-          labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+          labels: [ 'Tweets Positivos', 'Tweets Negativos', 'Tweets Neutros'],
           datasets: [
             {
               label: 'Data One',
               backgroundColor: '#f87979',
               // Data for the x-axis of the chart
-              data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt()]
+              data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt()]
             }
           ]
         }

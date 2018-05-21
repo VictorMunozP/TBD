@@ -23,17 +23,19 @@
           <option value="J3">Juego_3</option>
           </select>
         </b-col>
-        <button type="compare">Comparar</button>
+        <button type="compare" @click="fillData()" >Comparar</button>
     </b-row>
     </b-container>
 
     <h3>Gráfico comparador de juegos</h3>
-    <bar-chart></bar-chart>
-    <h3> Grafico de lineas, no necesario para esta vista pero incluido para ver como luce </h3>
+    <reactive :chart-data="datacollection"></reactive>
+
+    <!--bar-chart></bar-chart>
+    <h3> Grafico de lineas</h3>
     <line-chart></line-chart>
-    <!--chartjs-radar :datasets="datacollection.datasets"></chartjs-radar-->
+    <chartjs-radar :datasets="datacollection.datasets"></chartjs-radar>
     <h3>al igual q este de burbujas, aunque podria ser util</h3>
-    <bubble-chart></bubble-chart>
+    <bubble-chart></bubble-chart-->
   </section>
 </template>
 
@@ -41,13 +43,15 @@
   import LineChart from './LineChart.vue';
   import BarChart from './BarChart.vue';
   import BubbleChart from './BubbleChart.vue';
+  import Reactive from './Reactive.vue';
 
   export default {
     name: 'VueChartJS',
     components: {
       LineChart,
       BarChart,
-      BubbleChart
+      BubbleChart,
+      Reactive
     },
     //---------------------------------------------------------------------
     data () {
@@ -67,10 +71,40 @@
           labels: ['Tweets Positivos', 'Tweets Negativos', 'Tweets Neutros'],
           datasets: [
             {
-              label: 'Data One',
-              backgroundColor: '#f87979',
-              // Data for the x-axis of the chart
-              data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt(), this.getRandomInt()]
+              label: 'Opcion 1',
+              backgroundColor: [
+                'rgba(42, 67, 178, 0.2)',
+                'rgba(42, 67, 178, 0.2)',
+                'rgba(42, 67, 178, 0.2)'
+              ],
+              borderColor: [
+                'rgba(42, 67, 178, 1)',
+                'rgba(42, 67, 178, 1)',
+                'rgba(42, 67, 178, 1)'
+              ],
+              pointBackgroundColor: 'white',
+              borderWidth: 1,
+              pointBorderColor: '#56bc6b',
+              //Data to be represented on y-axis
+              data: [this.getRandomInt(),this.getRandomInt(),this.getRandomInt()]
+            },
+            {
+              label: 'Opcion 2',
+              backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(255, 99, 132, 0.2)'
+              ],
+              borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(255, 99, 132, 1)',
+                'rgba(255, 99, 132, 1)'
+              ],
+              pointBackgroundColor: 'white',
+              borderWidth: 1,
+              pointBorderColor: '#56bc6b',
+              //Data to be represented on y-axis
+              data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt()]
             }
           ]
         }
